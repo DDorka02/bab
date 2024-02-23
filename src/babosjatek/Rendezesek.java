@@ -1,14 +1,24 @@
 package babosjatek;
 
+import java.util.Scanner;
+
+
 public class Rendezesek {
 
+        static Scanner sc = new Scanner (System.in);
+        
     public static int[] Geplep(int[] sorozat) {
-        for (int i = sorozat.length-1; i>0; i++){
-                if(sorozat[i]> sorozat[i+1]){
-                    i++;
-                }
-            }
-         return sorozat;
+        System.out.println("Kérek egy számot(1-2):");
+        int c =sc.nextInt();
+        while (3<c){
+        if (3<c){
+            System.out.println("Hibás. Kérek egy számot(1-2):");
+            c =sc.nextInt();}
+        }
+        
+        
+        
+            return null;        
         }
        
     } 
